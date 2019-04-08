@@ -4,20 +4,7 @@ def reverse_each_word(string)
   new_array.each do |word|
     return_array.push string.reverse
   end
-  return
+  return_array.join("")
 end
 
 
-def change_nums(nums)
-  nums.collect do |x| 
-    x + 1
-  end
-end
-
-def change_nums(nums)
-  nums.each do |x|
-    puts x + 1
-  end
-end
-
-new_array = string.split
