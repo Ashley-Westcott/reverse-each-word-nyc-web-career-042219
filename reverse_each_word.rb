@@ -8,16 +8,3 @@ def reverse_each_word(string)
 end
 
 
-def change_nums(nums)
-  nums.collect do |x| 
-    x + 1
-  end
-end
-
-def change_nums(nums)
-  nums.each do |x|
-    puts x + 1
-  end
-end
-
-new_array = string.split
