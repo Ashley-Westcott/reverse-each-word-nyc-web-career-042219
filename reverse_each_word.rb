@@ -10,4 +10,11 @@ end
 
 
 
+def change_nums(nums)
+  nums.collect do |x| 
+    x + 1
+  end
+end
+
+
 
