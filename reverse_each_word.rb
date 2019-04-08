@@ -7,6 +7,12 @@ def reverse_each_word(string)
   return_array.join(" ")
 end
 
+def 
 
+def change_nums(nums)
+  nums.collect do |x| 
+    x + 1
+  end
+end
 
 
